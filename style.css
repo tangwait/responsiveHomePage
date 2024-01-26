@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    padding: 8px;
+}
+
+.my-work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 50px;
+}
