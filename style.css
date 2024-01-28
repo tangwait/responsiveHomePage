@@ -7,13 +7,42 @@ body {
 .header-content {
     display: flex;
     padding: 8px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    justify-content: center;
 }
 
-.my-work {
+.about-me-picture {
+    width: 200px;
+    height: auto;
+}
+
+.about-me-content {
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.my-work-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 1px solid black;
-    gap: 5px;
+    background-image: url(../Downloads/freddie-marriage-vSchPA-YA_A-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.my-work-title {
+    padding: 10px;
+    grid-column: span 3;
+}
+
+.my-work-box {
+    border: 1px solid red;
+    height: 100px;
+
 }
 
 .footer {
